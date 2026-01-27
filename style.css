@@ -1,0 +1,57 @@
+h1 {
+  text-align: center;
+  color: #000000;
+}
+
+body {
+  background-color: #e5e7eb; /* Um cinza claro para */
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, Sans-Serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+form {
+  max-width: 300px; /* largura máxima */
+  margin: 20px auto; 
+  padding: 15px;
+  background-color:white;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* (0) -> Sombra para os lados; o (10px) -> Sombra para baixo; o (25px) -> O quanto a sombra é "esfumaçada" (blur) e o rgba(0, 0, 0, 0.1) -> uma cor bem clarinha (apenas 10% de opacidade).
+}
+
+.campo {
+  margin-bottom: 15px; /* dá espaço entre os campos */
+}
+
+label {
+  display: block; /* Faz o label ficar em cima do input */
+  margin-bottom: 5px;
+  font-weight: bold; /* para deixar o label em negrito */
+}
+
+input {
+  width: 100%; /* Faz a caixa ocupar toda a largura disponível */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box; /* Garante que o padding não quebre o tamanho */
+}
+
+.btn-enviar {
+  width: 100%;
+  padding: 12px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-enviar:active {
+  background-color: #004225; /* Um verde ainda mais escuro*/
+  transform: scale(0.92); /* Faz o botão dar uma leve "encolhida" ao clicar, simulando o clique físico de um botão real*/
+}

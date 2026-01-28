@@ -1,2 +1,2 @@
 # primeiro-formulario-html.
-Meu primeiro projeto de estudo em html e css. Um formulário de cadastro desenvolvido inteiramente pelo celular utilizando o app editor Acode.
+Meu primeiro projeto de estudo em html e css. Um formulário de cadastro desenvolvido inteiramente pelo celular utilizando o app editor Acode. É um projeto bem simples, apenas para o treinamento destas tecnologias. Nesse formulário utilizei apenas a sintaxe básica de html e css, nada muito complexo como podem perceber no código.
